@@ -18,7 +18,11 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
 
+<<<<<<< HEAD
     [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleBlackOpaque;
+=======
+    [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleDefault;
+>>>>>>> 763d3b9ee92def09f66196bbcd129780cef5f58f
     [UIDevice currentDevice];
 
     // Override point for customization after application launch.
