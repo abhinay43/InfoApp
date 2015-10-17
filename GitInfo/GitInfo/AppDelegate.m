@@ -19,6 +19,7 @@
 {
     [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleBlackTranslucent;
     [UIDevice currentDevice];
+
     // Override point for customization after application launch.
     return YES;
 }
