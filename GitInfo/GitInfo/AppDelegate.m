@@ -17,7 +17,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleDefault;
+    [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
 
 
     [UIDevice currentDevice];
