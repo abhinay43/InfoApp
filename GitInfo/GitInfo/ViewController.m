@@ -17,7 +17,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [UIDevice currentDevice];
+    [UIDevice currentDevice].finalize;
     // Do any additional setup after loading the view, typically from a nib.
 }
 
